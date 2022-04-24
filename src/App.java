@@ -9,17 +9,20 @@ public class App {
 
     public static void main(String[] args) throws Exception {
 
-        // int n;
-        // ArrayList<String> values = new ArrayList<>();
-        // Scanner input = new Scanner(System.in);
-        // n = input.nextInt();
+        int n;
+        ArrayList<String> values = new ArrayList<>();
+        Scanner input = new Scanner(System.in);
 
-        // for(int i=0; i<=n; i++) {
-        //     values.add(input.nextLine());
-        // }
-        // System.out.println("\n");
+        System.out.println("No of values: ");
+        n = input.nextInt();
 
-        ArrayList<String> values = new ArrayList<>(Arrays.asList("1", "2", "3", "4", "5", "6"));
+        System.out.println("Values: ");
+        for(int i=0; i<=n; i++) {
+            values.add(input.nextLine());
+        }
+        System.out.println("\n");
+
+        // ArrayList<String> values = new ArrayList<>(Arrays.asList("1", "2", "3", "4", "5", "6"));
 
         Node root = buildTree(values);
         System.out.println("Merkle Tree:\n");

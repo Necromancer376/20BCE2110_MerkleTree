@@ -42,6 +42,12 @@ Any hash functions can be used for hashing of data. Hash function maps input to 
 ![image](https://user-images.githubusercontent.com/66357015/165552624-5e98498f-1d20-4d1d-9bea-adb7128d19fe.png)
 
 
+## Output
+![image](https://user-images.githubusercontent.com/66357015/165561292-2cf7f637-6b8a-44e0-9e99-2452eec3b1db.png)
+
+![output_annotation](https://user-images.githubusercontent.com/66357015/165562690-3cb4ea4d-3834-4f03-a3db-b4754f1a4983.png)
+
+
 ## References
 - https://brilliant.org/wiki/merkle-tree/
 - https://www.geeksforgeeks.org/introduction-to-merkle-tree/ (just the concepts not code)

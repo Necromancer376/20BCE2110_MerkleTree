@@ -23,6 +23,30 @@ Any hash functions can be used for hashing of data. Hash function maps input to 
 - Repeat last step till all elements are hashed
 - Repeat last 3 steps till array is of size 1
 
+## Steps
+
+`1`
+
+![image](https://user-images.githubusercontent.com/66357015/165556367-73a07c1b-4641-4033-893d-a06b43ade1db.png)
+
+`2`
+
+![image](https://user-images.githubusercontent.com/66357015/165556476-17f87279-1ecf-455d-ba71-70c163ec85bf.png)
+
+`3`
+
+![image](https://user-images.githubusercontent.com/66357015/165556542-caf8b55b-c544-404e-aef0-d91a1328b0e8.png)
+
+`4`
+
+![image](https://user-images.githubusercontent.com/66357015/165552624-5e98498f-1d20-4d1d-9bea-adb7128d19fe.png)
+
+
+## References
+- https://brilliant.org/wiki/merkle-tree/
+- https://www.geeksforgeeks.org/introduction-to-merkle-tree/ (just the concepts not code)
+- https://www.youtube.com/watch?v=fB41w3JcR7U
+
 ## Folder Structure
 
 The workspace contains two folders by default, where:

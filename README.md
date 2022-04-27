@@ -11,10 +11,17 @@ Merkle tree is used in distributed systems where same data must not be in differ
 ## Architecture of Merkle Tree
 
 Merkle tree has same architecture as binary trees but all leaf nodes are at same level. Each node is a hash of its child nodes, leaf nodes being the exception.
-Any hash functions can be used for hashing of data. Hash function maps input to a fixed output. The output is unique so it is very efficient 'O(1)' to find data in large dataset
+Any hash functions can be used for hashing of data. Hash function maps input to a fixed output. The output is unique so it is very efficient `O(1)` to find data in large dataset
 
 ![image](https://user-images.githubusercontent.com/66357015/165552624-5e98498f-1d20-4d1d-9bea-adb7128d19fe.png)
 
+## Algorithm
+- Get leaf elemets
+- Duplicate last element if odd number of elements are there
+- Make new node array
+- Add new node to array as hash of two consecutive nodes in one level below it and set them as child nodes. 
+- Repeat last step till all elements are hashed
+- Repeat last 3 steps till array is of size 1
 
 ## Folder Structure
 

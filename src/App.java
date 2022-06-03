@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-import java.util.Arrays;
+// import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
@@ -27,6 +27,7 @@ public class App {
         Node root = buildTree(values);
         System.out.println("Merkle Tree:\n");
         printTree(root);
+        input.close();
     }
 
     public static String Hash(String[] values) {

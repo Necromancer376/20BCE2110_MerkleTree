@@ -6,7 +6,7 @@ Welcome to the VS Code Java world. Here is a guideline to help you get started t
 
 Merkle tree is a data structure used for data verification and synchronization.
 In this structure all node except for leaf nodes are hash of thier child nodes. All leaf nodes are at same level in the tree.
-Merkle tree is used in distributed systems where same data must not be in different places. This is used in blockchain technolog=ies most commonly.
+Merkle tree is used in distributed systems where same data must not be in different places. This is used in blockchain technologies most commonly.
 
 ## Architecture of Merkle Tree
 
